@@ -87,11 +87,66 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   * {
+    background: rgb(17, 11, 24);
+    color: white;
+    font-family: 'Special Elite';
+    font-size: 1em;
+   }
+
+   .benefit-title {
+    text-decoration: underline;
+    text-decoration-color: #4caf50;
+   }
+
+   #copyright {
+    margin-top: 0;
+   }
+   
+   .fast {
+    color:#4caf50;
+   }
+
+   h1 {
+    text-shadow: 0 0 10px rgba(189, 6, 196, 0.5);
+   }
+
+   h2 {
+    font-style: italic;
+   }
+
+   .icon {
+    background-color: white;
+    margin-bottom: 20px; 
+   }
+
+   #logo {
+    width: 40%;
+   }
+
+   .navbar-nav .nav-link {
+    color: white !important;
+  }
+
+   #offer-image {
+    border: 1px solid #4caf50;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+   }
+
+   .sign-up {
+    font-size: 3em;
+    font-style: italic;
+   }
+
    #signup-button {
     max-width: 100%; 
     max-height: 100%; 
     width: auto; 
     height: auto; 
+  }
+
+  .text {
+    margin-bottom: 15px; 
   }
 
 /* ==========================================================================
