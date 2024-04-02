@@ -194,7 +194,7 @@
 
      #interview-photo {
       border: 1px solid black;
-      margin-top: 30px;
+      margin-top: 10px;
      }
 
      label {
@@ -205,6 +205,11 @@
       border: 2px solid black !important;
       color: black;
       margin-bottom: 4px;
+     }
+
+     .login-h1 {
+      color: black;
+      font-size: 4em;
      }
 
      #logo {
@@ -236,6 +241,12 @@
       max-height: 100%; 
       width: 60%; 
       height: auto; 
+     }
+
+     .signup-h2 {
+      color: black;
+      font-size: 3em;
+      font-style: italic;
      }
 
      .submit {
