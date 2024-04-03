@@ -221,9 +221,18 @@
       margin-bottom: 4px;
      }
 
-     .login-h1 {
+     #login-button {
+      margin: auto;
+      width: 72%;
+     } 
+
+     #login-h1 {
       color: black;
       font-size: 4em;
+     }
+
+     #login-h2 {
+      color: black;
      }
 
      #logo {
@@ -261,6 +270,15 @@
       color: black;
       font-size: 3em;
       font-style: italic;
+     }
+
+     #signup-h4 {
+      color: black;
+     }
+
+     #signup-submit {
+      margin: auto;
+      width: 40%;
      }
 
      .submit {
