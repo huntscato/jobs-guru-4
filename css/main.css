@@ -94,16 +94,30 @@
      }
   
      #about * {
-      background-color: #51afed;
+      background-color: #6ebcf0;
       margin-bottom: 10px;
       margin-top: 10px;
      }
 
-     #about-h2 {
+     .about-h2 {
       color: black;
-      font-size: 1.5em;
+      font-size: 2.2em;
+      margin-bottom: 40px;
+      margin-top: 40px;
+     }
+
+     .about-h4 {
+      color: black;
       margin-bottom: 20px;
-      margin-top: 20px;
+      margin-top: 40px;
+     }
+
+     #about-page-photo {
+      padding-top: 40px;
+     }
+
+     #about-signup-button {
+      width: 80%;
      }
 
      .benefit-details {
@@ -143,7 +157,7 @@
      }
 
      form  {
-      background-color: #51afed;
+      background-color: #6ebcf0;
       border: 2px solid #b5d2e6;
       border-radius: 10px;
       margin-bottom: 20px;
@@ -151,7 +165,7 @@
      }
 
      .form-group {
-      background-color: #51afed;
+      background-color: #6ebcf0;
      }
   
      header .container {
@@ -159,7 +173,7 @@
      }
 
      header .container.mt-4 {
-      background-color: #51afed;
+      background-color: #6ebcf0;
      }
 
      #home-h1 {
@@ -175,7 +189,7 @@
      }
 
      #homepage-header * {
-      background-color: #51afed;
+      background-color: #6ebcf0;
      }
 
      .icon {
@@ -198,7 +212,7 @@
      }
 
      label {
-      background-color: #51afed;
+      background-color: #6ebcf0;
      }
 
      .list-group-item {
@@ -236,7 +250,7 @@
       margin: 0;
      }
   
-     #signup-button {
+     .signup-button {
       max-width: 100%; 
       max-height: 100%; 
       width: 60%; 
