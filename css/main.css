@@ -152,6 +152,11 @@
      #copyright {
       margin-top: 0;
      }
+
+     .custom-button {
+      margin: 5px;
+      width: 350px;
+     }
     
      .fast {
       color:#61d265;
