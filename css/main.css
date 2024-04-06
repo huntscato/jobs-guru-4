@@ -241,8 +241,7 @@
      }
 
      #login-button {
-      margin: auto;
-      width: 72%;
+      width: 50%;
      } 
 
      #login-h1 {
@@ -289,6 +288,12 @@
       max-height: 100%; 
       width: 60%; 
       height: auto; 
+     }
+
+     #signup-h1 {
+      color: black;
+      font-size: 4em;
+      text-decoration: underline;
      }
 
      .signup-h2 {
