@@ -120,6 +120,24 @@
       width: 80%;
      }
 
+     .accordion {
+      padding: 20px;
+     }
+
+     .accordion .card-header {
+       align-items: center;
+       display: flex;
+       height: 100px; 
+       justify-content: center;
+       padding: 0;
+     }
+     
+     .accordion .card-header button {
+       padding: 15px;
+       text-align: center;
+       width: 100%;
+     }
+
      .benefit-details {
       margin-left: 4px;
       width: 80%;
@@ -145,6 +163,15 @@
       width: 30px;
      }
 
+     .card-body {
+      color: black;
+     }
+
+     .card {
+      border: 2px solid #6ebcf0 !important;
+      box-shadow: 0 0 10px rgba(110, 188, 240, 0.9)
+     }
+
      .col-md-6 {
        text-align: center;
      }
@@ -161,6 +188,17 @@
      .fast {
       color:#61d265;
       text-shadow: 0 0 10px rgba(101, 120, 153, 1);
+     }
+
+     #faq {
+      margin-bottom: 40px;
+      margin-top: 40px;
+     }
+
+     #faq-h1 {
+      color: black;
+      text-align: center;
+      text-decoration: underline;
      }
 
      footer .container {
