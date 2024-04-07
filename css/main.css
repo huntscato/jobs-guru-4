@@ -153,6 +153,22 @@
       text-align: center;
      }
 
+     #blog-container {
+      margin-bottom: 40px;
+      margin-top: 40px;
+     }
+
+     #blog-h1 {
+      color: black;
+      margin-bottom: 40px;
+      text-align: center;
+      text-decoration: underline;
+     }
+
+     .blog-span {
+      color:rgba(101, 120, 153, 1);
+     }
+
      .btn-logo {
       align-items: center;
       display: inline-flex;
@@ -163,14 +179,24 @@
       width: 30px;
      }
 
-     .card-body {
-      color: black;
-     }
-
      .card {
       border: 2px solid #6ebcf0 !important;
       box-shadow: 0 0 10px rgba(110, 188, 240, 0.9)
      }
+
+     .card-body {
+      color: black;
+     }
+
+     .card-text {
+      color: black;
+     }
+
+     .card-title {
+      color: black;
+      text-decoration: underline;
+     }
+
 
      .col-md-6 {
        text-align: center;
