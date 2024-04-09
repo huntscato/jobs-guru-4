@@ -160,6 +160,7 @@
 
      #blog-h1 {
       color: black;
+      font-size: 2em;
       margin-bottom: 40px;
       text-align: center;
       text-decoration: underline;
@@ -223,6 +224,7 @@
 
      #faq-h1 {
       color: black;
+      font-size: 2em;
       text-align: center;
       text-decoration: underline;
      }
@@ -236,7 +238,7 @@
      }
 
      .forgot {
-      padding-top: 20px;
+      padding-top: 10px;
      }
 
      form  {
@@ -244,7 +246,7 @@
       border: 2px solid #b5d2e6;
       border-radius: 10px;
       margin-bottom: 20px;
-      padding: 20px;
+      padding: 40px;
      }
 
      .form-group {
@@ -310,7 +312,7 @@
 
      #login-h1 {
       color: black;
-      font-size: 4em;
+      font-size: 2em;
       text-decoration: underline;
      }
 
@@ -356,7 +358,7 @@
 
      #signup-h1 {
       color: black;
-      font-size: 4em;
+      font-size: 2em;
       text-decoration: underline;
      }
 
