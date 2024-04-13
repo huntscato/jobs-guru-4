@@ -171,14 +171,15 @@
      }
 
      .btn-logo {
-      align-items: center;
-      display: inline-flex;
-     }
+       align-items: center;
+       display: inline-flex;
+      }
+      
+      .btn-logo img {
+        margin-right: 50px;
+        width: 30px;
+      }
 
-     .btn-logo img {
-      margin-right: 50px;
-      width: 30px;
-     }
 
      .card {
       border: 2px solid #6ebcf0 !important;
