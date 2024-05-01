@@ -1,72 +1,96 @@
   // START NEW APPLICATION PAGE // 
 
-    // Get the file drop area element
-    const fileDropArea = document.getElementById('file-drop-area');
-    const fileInput = document.querySelector('.resume-input');
+  // Resume Drop Area //
+    document.addEventListener("DOMContentLoaded", function () {
+        const dropArea = document.getElementById("resume-drop-area");
 
-    // Prevent default behavior for drag and drop events
-    ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
-        fileDropArea.addEventListener(eventName, preventDefaults, false);
-        document.body.addEventListener(eventName, preventDefaults, false);
-    });
-
-    // Highlight drop area when file is being dragged over it
-    ['dragenter', 'dragover'].forEach(eventName => {
-        fileDropArea.addEventListener(eventName, highlight, false);
-    });
-
-    // Remove highlight when file is dragged out of drop area
-    ['dragleave', 'drop'].forEach(eventName => {
-        fileDropArea.addEventListener(eventName, unhighlight, false);
-    });
-
-    // Handle file drop event
-    fileDropArea.addEventListener('drop', handleDrop, false);
-
-    // Handle click event
-    fileDropArea.addEventListener('click', handleClick, false);
-
-    function preventDefaults(e) {
-        e.preventDefault();
-        e.stopPropagation();
-    }
-
-    function highlight() {
-        fileDropArea.classList.add('highlight');
-    }
-
-    function unhighlight() {
-        fileDropArea.classList.remove('highlight');
-    }
-
-    function handleDrop(e) {
-        const dt = e.dataTransfer;
-        const files = dt.files;
-
-        handleFiles(files);
-    }
-
-    function handleClick() {
-        fileInput.click();
-    }
-
-    fileInput.addEventListener('change', function() {
-        handleFiles(this.files);
-    });
-
-    function handleFiles(files) {
-        // Check if there are any files
-        if (files.length > 0) {
-            // Assuming only one file is dropped, you can modify this if needed
-            const file = files[0];
-
-            // Check if the file is a PDF
-            if (file.type === 'application/pdf') {
-                // Do something with the PDF file, for example, upload it
-                console.log('PDF file dropped:', file.name);
-            } else {
-                alert('Please drop a PDF file.');
-            }
+        // Function to handle file selection
+        function handleFileSelect(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            dropArea.classList.add("file-selected");
+            dropArea.innerHTML = "<p>Thank you for submitting your resume</p>";
         }
-    }
 
+        // Event listener for drag and drop functionality
+        dropArea.addEventListener("dragover", function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            dropArea.classList.add("dragover");
+        });
+
+        dropArea.addEventListener("dragleave", function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            dropArea.classList.remove("dragover");
+        });
+
+        dropArea.addEventListener("drop", function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            dropArea.classList.remove("dragover");
+
+            const files = event.dataTransfer.files;
+            if (files.length > 0) {
+                handleFileSelect(event);
+            }
+        });
+
+        // Event listener for file input change
+        const fileInput = dropArea.querySelector(".resume-input");
+        fileInput.addEventListener("change", handleFileSelect);
+
+        // Trigger file input click event when drop area text is clicked
+        const dropAreaText = dropArea.querySelector("p:nth-child(3)");
+        dropAreaText.addEventListener("click", function () {
+            fileInput.click();
+        });
+
+    });
+
+   // Job Description Drop Area //
+    document.addEventListener("DOMContentLoaded", function () {
+        const dropArea = document.getElementById("job-description-drop-area");
+
+        // Function to handle file selection
+        function handleFileSelect(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            dropArea.classList.add("file-selected");
+            dropArea.innerHTML = "<p>Thank you for submitting your job description!</p>";
+        }
+
+        // Event listener for drag and drop functionality
+        dropArea.addEventListener("dragover", function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            dropArea.classList.add("dragover");
+        });
+
+        dropArea.addEventListener("dragleave", function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            dropArea.classList.remove("dragover");
+        });
+
+        dropArea.addEventListener("drop", function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            dropArea.classList.remove("dragover");
+
+            const files = event.dataTransfer.files;
+            if (files.length > 0) {
+                handleFileSelect(event);
+            }
+        });
+
+        // Event listener for file input change
+        const fileInput = dropArea.querySelector(".job-description-input");
+        fileInput.addEventListener("change", handleFileSelect);
+
+        // Trigger file input click event when drop area text is clicked
+        const dropAreaText = dropArea.querySelector("p:nth-child(3)");
+        dropAreaText.addEventListener("click", function () {
+            fileInput.click();
+        });
+    });

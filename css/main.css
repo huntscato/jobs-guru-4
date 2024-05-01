@@ -342,7 +342,7 @@
       text-decoration: underline;
      }
 
-     #file-drop-area {
+     .file-drop-area {
       border: 2px dashed #ccc;
       border-radius: 10px; 
       color: black !important;
@@ -609,8 +609,12 @@
      }
 
      #signup-submit {
+      background-color: rgb(19, 163, 19) !important;
+      border: 1px solid rgb(18, 201, 18) !important;
       margin: auto;
-      width: 40%;
+      margin-top: 20px;
+      padding: 15px;
+      width: 45%;
      }
 
      .socials {
