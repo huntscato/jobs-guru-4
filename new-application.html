@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Start New Application - JobsGuru.ai</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="content">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="top-toolbar">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <img src="img/logo.png" />
+          <ul class="navbar-nav">
+            <li class="dash-nav-item">
+              <a class="nav-link" href="#">Dashboard</a>
+            </li>
+            <li id="application-dark" class="dash-nav-item">
+              <a class="nav-link" href="#">Start New Application</a>
+            </li>
+            <li class="dash-nav-item">
+              <a class="nav-link" href="#">Match & Tweak Resume</a>
+            </li>
+            <li class="dash-nav-item">
+              <a class="nav-link" href="#">Cover Letter</a>
+            </li>
+            <li class="dash-nav-item">
+              <a class="nav-link" href="#">Interview Questions</a>
+            </li>
+            <li class="dash-nav-item">
+              <a class="nav-link" href="#">Mock Interview</a>
+            </li>
+            <li class="dash-nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Delete Profile</a></li>
+                <li><a class="dropdown-item" href="#">Contact The Team</a></li>
+              </ul>
+            </li>
+            <li class="dash-nav-item">
+              <a class="nav-link" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="application-container">
+      <div class="row justify-content-center"> <!-- Centering the content -->
+        <!-- Form section -->
+        <div class="col-md-6" id="drop-file-text">
+          <h3 id="application-h3">Let's Get Started</h3>
+          <p class="application-text">Add your company name, job title, resume and job description and let our technology do its thing! </p>
+          <div class="application-page-forms">
+            <div id="company-input" class="form-group">
+              <label class="application-title" for="company-name">Company Name:</label>
+              <input type="text" class="form-control" id="company-name" placeholder="Enter company name">
+            </div>
+            <div id="job-title-input" class="form-group">
+              <label class="application-title" for="job-title">Job Title:</label>
+              <input type="text" class="form-control" id="job-title" placeholder="Enter job title">
+            </div>
+          </div>
+        </div>
+        
+        <!-- File drop area section -->
+        <div class="col-md-5 file-drops">
+            <div id="file-drop-area" class="resume-drop-area">
+              <p>Drag and drop your PDF Resume file here</p>
+              <p>or</p>
+              <p>Click to select file</p>
+              <input type="file" class="resume-input" accept=".pdf" style="display: none;">
+            </div>
+            <div id="file-drop-area" class="job-description-drop-area">
+              <p>Drag and drop your PDF Job Description here</p>
+              <p>or</p>
+              <p>Click to select file</p>
+              <input type="file" class="job-description-input" accept=".pdf" style="display: none;">
+            </div>
+        </div>
+      </div>
+    </div>
+     
+    <div class="new-app-start text-center">
+      <h3 class="new-h3">Everything look good?</h3>
+      <button type="submit" class="btn btn-primary new-app-submit">Let's Go</button> 
+    </div>   
+ 
+  
+  </div>
+        
+
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
