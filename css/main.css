@@ -98,6 +98,11 @@
       margin-top: 10px;
      }
 
+     .about-dark {
+      background-color: #157196;
+      border-radius: 20%;;
+     }
+
      .about-h2 {
       color: black;
       font-size: 2.2em;
@@ -106,7 +111,6 @@
      }
 
      .about-h4 {
-      color: black;
       margin-bottom: 20px;
       margin-top: 40px;
      }
@@ -178,12 +182,12 @@
      }
 
      .benefit-details {
+      color: white !important;
       margin-left: 4px;
       width: 80%;
      }
   
      .benefit-title {
-      color: black;
       text-decoration: underline;
       text-decoration-color: #1a80b3;
      }
@@ -197,8 +201,12 @@
       margin-top: 40px;
      }
 
+     .blog-dark {
+      background-color: #157196;
+      border-radius: 20%;
+     }
+
      #blog-h1 {
-      color: black;
       font-size: 2em;
       margin-bottom: 40px;
       text-align: center;
@@ -234,7 +242,7 @@
      }
 
      .card-body {
-      color: black;
+      color: black !important;
      }
 
      .card-text {
@@ -335,8 +343,12 @@
       margin-top: 40px;
      }
 
+     .faq-dark {
+      background-color: #157196;
+      border-radius: 20%;
+     }
+
      #faq-h1 {
-      color: black;
       font-size: 2em;
       text-align: center;
       text-decoration: underline;
@@ -417,7 +429,7 @@
      }
 
      header {
-      background: linear-gradient(to bottom right, #8968cd, #A865B5, #663399);
+      background: linear-gradient(to bottom right, #2b84a7, #1295c9, #2b84a7);
       border: 2px solid rgb(77, 160, 187)
      }
 
@@ -464,9 +476,13 @@
       #login-button {
         width: 50%;
       } 
+
+      .login-dark {
+        background-color: #157196;
+        border-radius: 20%;
+      }
       
       #login-h1 {
-        color: black;
         font-size: 2em;
         text-decoration: underline;
       }
@@ -495,9 +511,13 @@
         background-color: #157196;
         border-radius: 20%;
       }
+
+      #meet-h1 {
+        margin-top: 80px;
+        text-align: center;
+      }
       
       .member-bio {
-        color: black;
         text-align: left;
       }
       
@@ -551,7 +571,7 @@
       }
       
       .or {
-        color: gray;
+        color: rgb(211, 206, 206);
         font-size: 2em;
       }
       
@@ -579,7 +599,6 @@
      }
   
      .sign-up {
-      color: black;
       font-size: 1.4em;
       font-style: italic;
       margin: 0;
@@ -593,7 +612,6 @@
      }
 
      #signup-h1 {
-      color: black;
       font-size: 2em;
       text-decoration: underline;
      }
@@ -608,6 +626,11 @@
       color: black;
      }
 
+     .signup-link {
+      color: #44c4fb;
+      text-shadow: 0 0 5px #4fbeee;
+     }
+
      #signup-submit {
       background-color: rgb(19, 163, 19) !important;
       border: 1px solid rgb(18, 201, 18) !important;
@@ -615,6 +638,10 @@
       margin-top: 20px;
       padding: 15px;
       width: 45%;
+     }
+
+     .social-button {
+      background-color: #1295c9 !important;
      }
 
      .socials {
