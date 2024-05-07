@@ -506,10 +506,20 @@
         padding: 20px;
         width: calc(100% - 220px);
       }
+
+      .match-content {
+        margin-top: 200px !important; 
+      }
       
       #match-dark {
         background-color: #157196;
         border-radius: 20%;
+      }
+
+      .match-text {
+        margin-bottom: 20px;
+        text-align: center;
+        text-decoration: underline;
       }
 
       #meet-h1 {
@@ -553,6 +563,20 @@
         font-size: 1.5em;
         padding: 20px !important;
         text-shadow: 0 0 1px #90c7b7;
+      }
+
+      .nav-link.active {
+        background-color: #0e95cb !important;
+      }
+
+      
+      .nav-link {
+        color: black !important;
+        padding: 15px !important;
+      }
+      
+      .nav-tabs {
+        background-color: #44c4fb;
       }
 
       .new-app-start {
@@ -611,6 +635,11 @@
       height: auto; 
      }
 
+     .signup-dark {
+      background-color: #157196;
+      border-radius: 20px; 
+     }
+
      #signup-h1 {
       font-size: 2em;
       text-decoration: underline;
@@ -656,6 +685,10 @@
      .table {
       margin: auto;
       width: 90% !important;
+     }
+
+     .tab-pane {
+      margin-top: 30px;
      }
 
      .team-member-container {
@@ -760,6 +793,10 @@
    .uploaded-title {
      font-size: 0.7em;
      margin: 0;
+   }
+
+   .video-button {
+    background-color: #1295c9 !important;
    }
 
    .welcome {
