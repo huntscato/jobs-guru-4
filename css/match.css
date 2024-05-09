@@ -87,20 +87,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   .cover-content {
-    margin-top: 150px !important;
-   }
+   .match-content {
+    margin-top: 150px !important; 
+  }
+        
+  #match-dark {
+    background-color: #157196;
+    border-radius: 20%;
+  }
 
-   .cover-h1 {
+  .match-h1 {
     margin-bottom: 40px;
-    text-align: center;
-   }
+  }
 
-   .cover-table {
+  .match-tab {
+    font-size: 1.3em !important;
+  }
+
+   #match-table {
     background-color: #0e95cb;
     border: 2px solid black;
     padding: 20px;
    }
+
+   .match-text {
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+
 
 /* ==========================================================================
    Helper classes

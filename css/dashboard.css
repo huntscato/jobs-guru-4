@@ -87,20 +87,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   .cover-content {
-    margin-top: 150px !important;
-   }
+  #dashboard-logo {
+    margin-right: 275px;
+    width: 15% !important;
+  }
 
-   .cover-h1 {
-    margin-bottom: 40px;
-    text-align: center;
-   }
-
-   .cover-table {
-    background-color: #0e95cb;
-    border: 2px solid black;
-    padding: 20px;
-   }
 
 /* ==========================================================================
    Helper classes

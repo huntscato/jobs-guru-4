@@ -496,8 +496,12 @@
         color: black;
       }
 
-      .logo-img {
+      .logo {
+        width: 10% !important;
+      }
 
+      #logo {
+        width: 60%;
       }
       
       .main-content {
@@ -507,21 +511,6 @@
         overflow-y: auto;
         padding: 20px;
         width: calc(100% - 220px);
-      }
-
-      .match-content {
-        margin-top: 200px !important; 
-      }
-      
-      #match-dark {
-        background-color: #157196;
-        border-radius: 20%;
-      }
-
-      .match-text {
-        margin-bottom: 20px;
-        text-align: center;
-        text-decoration: underline;
       }
 
       #meet-h1 {
@@ -733,36 +722,8 @@
       width: 220px;
     }
 
-    .toolbar-bottom {
-      margin-top: auto;
-    }
-
-    .toolbar-left {
-      align-items: center;
-      display: flex;
-      flex: 1;
-      flex-direction: column;
-    }
-
-    .toolbar .nav-link {
-      align-items: center;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-    }
-    
     #top-toolbar {
-      align-items: center;
       background-color: #1295c9 !important;
-      display: flex;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 1000;
-    }
-
-    #top-toolbar img {
-      width: 45%
     }
 
     .track {
