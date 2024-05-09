@@ -31,41 +31,50 @@
 
 <body>
 
-
-
-  <!-- TOP TOOLBAR -->
   <div class="content">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="top-toolbar">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <img src="img/logo.png" />
-          <ul class="navbar-nav">
-            <li id="dashboard-dark" class="dash-nav-item">
-              <a class="nav-link" href="#">Dashboard</a>
-            </li>
-            <li class="dash-nav-item">
-              <a class="nav-link" href="#">Start New Application</a>
-            </li>
-            </li>
-            <li class="dash-nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                More
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Delete Profile</a></li>
-                <li><a class="dropdown-item" href="#">Contact The Team</a></li>
+        <div class="row align-items-center">
+          <!-- Logo on the left -->
+          <div class="col-auto logo-img">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" />
+            </a>
+          </div>
+          <!-- Spacer to push navigation links to the right -->
+          <div class="col"></div>
+          <div class="col-auto navbar-nav">
+            <!-- Navigation links centered -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li id="dashboard-dark" class="dash-nav-item">
+                  <a class="nav-link" href="#">Dashboard</a>
+                </li>
+                <li class="dash-nav-item">
+                  <a class="nav-link" href="#">Start New Application</a>
+                </li>
+                <li class="dash-nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Delete Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Contact The Team</a></li>
+                  </ul>
+                </li>
+                <li class="dash-nav-item">
+                  <a class="nav-link" href="#">Logout</a>
+                </li>
               </ul>
-            </li>
-            <li class="dash-nav-item">
-              <a class="nav-link" href="#">Logout</a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
+  </div>
 
     <main class="container-fluid main-content">
       <div class="dashboard-header">
@@ -75,14 +84,13 @@
       <table class="table table-striped">
 <thead>
     <tr>
-        <th scope="col"><div style="color: black; text-align: center;">Company</div></th>
-        <th scope="col"><div style="color: black; text-align: center;">Position</div></th>
-        <th scope="col"><div style="color: black; text-align: center;">Current Stage</div></th>
-        <th scope="col"><div style="color: black; text-align: center;">Phone Screen</div></th>
-        <th scope="col"><div style="color: black; text-align: center;">Interview</div></th>
-        <th scope="col"><div style="color: black; text-align: center;">Result</div></th>
-        <th scope="col"><div style="color: black; text-align: center;">Actions</div></th>
-        <th scope="col"></th>
+        <th scope="col"><div class="table-title" style="color: black; text-align: center;">Company</div></th>
+        <th scope="col"><div class="table-title" style="color: black; text-align: center;">Position</div></th>
+        <th scope="col"><div class="table-title" style="color: black; text-align: center;">Current Stage</div></th>
+        <th scope="col"><div class="table-title" style="color: black; text-align: center;">Phone Screen</div></th>
+        <th scope="col"><div class="table-title" style="color: black; text-align: center;">Interview</div></th>
+        <th scope="col"><div class="table-title" style="color: black; text-align: center;">Result</div></th>
+        <th id="actions" scope="col"><div class="table-title" style="color: black; text-align: center;">Actions</div></th>
     </tr>
 </thead>
         <tbody id="jobTableBody">
@@ -129,8 +137,10 @@
                 <option value="rejected">Rejected</option>
               </select>
             </td>
-            <td><button class="btn btn-success" id="select-btn">Select</button></td>
-            <td><button class="btn btn-success" id="edit-btn">View/Edit</button></td>
+            <td>
+              <button class="btn btn-success" id="select-btn">Select</button>
+              <button class="btn btn-success" id="edit-btn">View/Edit</button>
+            </td>
           </tr>
           <!-- Add more rows as needed -->
         </tbody>

@@ -146,6 +146,10 @@
        width: 100%;
      }
 
+     #actions {
+      width: 16%;
+     }
+
      .active-tab {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
       transition: box-shadow 0.3s ease;
@@ -284,6 +288,7 @@
 
       .dashboard-header {
         margin-bottom: 40px;
+        text-align: center;
       }
     
       .dash-nav-item {
@@ -490,13 +495,10 @@
       #login-h2 {
         color: black;
       }
-      
-      #logo {
-        margin-right: 100px !important;
-        width: 40%;
+
+      .logo-img {
+
       }
-      
-      
       
       .main-content {
         height: calc(100vh - 220px);
@@ -556,6 +558,12 @@
       
       .navbar-collapse {
         flex-grow: 0 !important;
+      }
+
+      .navbar-nav {
+        justify-content: center !important;
+        margin-left: 60px;
+        text-align: center;
       }
       
       .navbar-nav .nav-link {
@@ -687,6 +695,10 @@
       width: 90% !important;
      }
 
+     .table-title {
+      font-size: 1.5em;
+     }
+
      .tab-pane {
       margin-top: 30px;
      }
@@ -732,23 +744,29 @@
       flex-direction: column;
     }
 
-    #top-toolbar img {
-      width: 10%
-    }
-    
     .toolbar .nav-link {
+      align-items: center;
       color: #fff;
+      display: flex;
+      justify-content: center;
     }
     
     #top-toolbar {
+      align-items: center;
       background-color: #1295c9 !important;
+      display: flex;
       position: fixed;
       top: 0;
       width: 100%;
       z-index: 1000;
     }
 
+    #top-toolbar img {
+      width: 45%
+    }
+
     .track {
+      font-size: 2.5em;
       margin-left: 70px;
     }
     
@@ -801,6 +819,7 @@
 
    .welcome {
     color: black;
+    font-size: 4em;
     font-style: italic;
     margin-left: 70px;
    }
