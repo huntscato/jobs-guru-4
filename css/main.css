@@ -376,6 +376,7 @@
      }
 
      .forgot {
+      color:rgb(0, 210, 243);
       padding-top: 10px;
      }
 
@@ -396,7 +397,8 @@
      }
 
      .form-group {
-      background-color: #6ebcf0;
+      background-color: #1295c9;
+      text-align: center;
      }
 
      #home-h1 {
@@ -479,12 +481,19 @@
       }
       
       #login-button {
-        width: 50%;
+        background-color: rgb(19, 163, 19) !important;
+        border: 1px solid rgb(18, 201, 18) !important;
+        margin-right: 80px;
+        width: 30%;
       } 
 
       .login-dark {
         background-color: #157196;
         border-radius: 20%;
+      }
+
+      .login-form {
+        background-color: #1295c9;
       }
       
       #login-h1 {
@@ -494,6 +503,10 @@
       
       #login-h2 {
         color: black;
+      }
+
+      .login-label {
+        background-color: #1295c9;
       }
 
       .logo {
