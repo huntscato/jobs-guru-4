@@ -87,10 +87,51 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  #edit-btn {
+    background-color: rgb(212, 158, 56) !important;
+    border: none;
+  }
+  
+   #dashboard-dark {
+    background-color: #157196;
+    border-radius: 20%;
+  }
+
+  .dashboard-header {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
   #dashboard-logo {
     margin-right: 275px;
     width: 15% !important;
   }
+
+  .main-content {
+    height: calc(100vh - 220px);
+    margin-left: 220px;
+    margin-top: 120px;
+    overflow-y: auto;
+    padding: 20px;
+    width: calc(100% - 220px);
+  }
+
+  .table-title {
+    font-size: 1.5em;
+  }
+
+  .track {
+    font-size: 2.5em;
+    margin-left: 70px;
+  }
+
+  .welcome {
+    color: black;
+    font-size: 4em;
+    font-style: italic;
+    margin-left: 70px;
+  }
+
 
 
 /* ==========================================================================
