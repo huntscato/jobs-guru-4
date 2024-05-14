@@ -92,59 +92,6 @@
       font-family: 'Special Elite';
       font-size: 1em;
      }
-  
-     #about * {
-      margin-bottom: 10px;
-      margin-top: 10px;
-     }
-
-     .about-dark {
-      background-color: #157196;
-      border-radius: 20%;;
-     }
-
-     .about-h2 {
-      color: black;
-      font-size: 2.2em;
-      margin-bottom: 40px;
-      margin-top: 40px;
-     }
-
-     .about-h4 {
-      margin-bottom: 20px;
-      margin-top: 40px;
-     }
-
-     #about-page-photo {
-      padding-top: 40px;
-     }
-
-     #about-row {
-      background: linear-gradient(to bottom right, #8968cd, #A865B5, #663399 );
-      border: 2px solid rgb(77, 160, 187)
-     }
-
-     #about-signup-button {
-      width: 80%;
-     }
-
-     .accordion {
-      padding: 20px;
-     }
-
-     .accordion .card-header {
-       align-items: center;
-       display: flex;
-       height: 100px; 
-       justify-content: center;
-       padding: 0;
-     }
-     
-     .accordion .card-header button {
-       padding: 15px;
-       text-align: center;
-       width: 100%;
-     }
 
      #actions {
       width: 16%;
@@ -155,70 +102,12 @@
       transition: box-shadow 0.3s ease;
      }
 
-     #application-container {
-      border: 4px solid #40bbeb;
-      margin-left: 20px;
-      margin-right: 20px;
-      margin-top: 200px;
-      padding-bottom: 20px;
-      padding-top: 20px;
-     }
-
-     #application-dark {
-      background-color: #157196;
-      border-radius: 20%;
-     }
-
-     #application-h3 {
-      text-decoration: underline;
-     }
-
      .application-page-forms * {
       background-color: rgb(195, 183, 183) !important;
      }
 
      .application-page-forms {
       width: 70%;
-     }
-
-     .application-title {
-      background-color: #157196 !important;
-     }
-
-     .benefit-details {
-      color: white !important;
-      margin-left: 4px;
-      width: 80%;
-     }
-  
-     .benefit-title {
-      text-decoration: underline;
-      text-decoration-color: #1a80b3;
-     }
-
-     .benefits-info {
-      text-align: center;
-     }
-
-     #blog-container {
-      margin-bottom: 40px;
-      margin-top: 40px;
-     }
-
-     .blog-dark {
-      background-color: #157196;
-      border-radius: 20%;
-     }
-
-     #blog-h1 {
-      font-size: 2em;
-      margin-bottom: 40px;
-      text-align: center;
-      text-decoration: underline;
-     }
-
-     .blog-span {
-      color:rgba(101, 120, 154, 1);
      }
 
      body {
@@ -239,25 +128,6 @@
         width: 30px;
       }
 
-
-     .card {
-      border: 2px solid #6ebcf0 !important;
-      box-shadow: 0 0 10px rgba(110, 188, 240, 0.9)
-     }
-
-     .card-body {
-      color: black !important;
-     }
-
-     .card-text {
-      color: black;
-     }
-
-     .card-title {
-      color: black;
-      text-decoration: underline;
-     }
-
      .col-md-6 {
        text-align: center;
      }
@@ -265,11 +135,6 @@
      #company-input {
       background-color: #157196 !important;
       margin-bottom: 20px;
-     }
-
-     #cover-dark {
-      background-color: #157196;
-      border-radius: 20%;
      }
 
      #copyright {
@@ -333,41 +198,8 @@
       opacity: 1;
      }
 
-     #faq {
-      margin-bottom: 40px;
-      margin-top: 40px;
-     }
-
-     .faq-dark {
-      background-color: #157196;
-      border-radius: 20%;
-     }
-
-     #faq-h1 {
-      font-size: 2em;
-      text-align: center;
-      text-decoration: underline;
-     }
-
-     .file-drop-area {
-      border: 2px dashed #ccc;
-      border-radius: 10px; 
-      color: black !important;
-      cursor: pointer;
-      margin: auto;
-      margin-bottom: 20px;
-      padding: 20px;
-      text-align: center;
-      width: 80%;
-     }
-
      footer.footer {
       margin-top: 0 !important;
-     }
-
-     .forgot {
-      color:rgb(0, 210, 243);
-      padding-top: 10px;
      }
 
      form  {
@@ -376,10 +208,6 @@
       border-radius: 10px;
       margin-bottom: 20px;
       padding: 40px;
-     }
-
-     .form-control {
-      background-color: white !important;
      }
 
      .form-label {
@@ -391,49 +219,9 @@
       text-align: center;
      }
 
-     #home-h1 {
-      animation: fadeInLeft 1s ease-in-out forwards;
-      font-size: 3.5em;
-      margin-bottom: 50px;
-      margin-top: 20px;
-      opacity: 0;
-      text-shadow: 0 0 20px rgba(101, 120, 153, 1);
-      transform: translateXI(-100%);
-     }
-
-     @keyframes fadeInLeft {
-      from {
-        opacity: 0;
-        transform: translateX(-100%); /* Start from left side */
-      }
-
-      60% {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-        transform: translateX(0); /* Move to original position */
-      }
-    }
-  
-     #home-h2 {
-      font-style: italic;
-      margin-bottom: 50px;
-     }
-
-     #home-h3 {
-      font-size: 1em;
-     }
-
      header {
       background: linear-gradient(to bottom right, #2b84a7, #1295c9, #2b84a7);
       border: 2px solid rgb(77, 160, 187)
-     }
-
-     .icon {
-      background-color: white;
-      margin-bottom: 20px; 
-      width: 100%;
      }
 
      .info {
@@ -443,12 +231,6 @@
      input {
       border: 1px solid black !important;
      }
-
-     
-     #interview-dark {
-       background-color: #157196;
-       border-radius: 20%;
-      }
       
       #interview-photo {
         border: 1px solid black;
@@ -477,24 +259,6 @@
         width: 30%;
       } 
 
-      .login-dark {
-        background-color: #157196;
-        border-radius: 20%;
-      }
-
-      .login-form {
-        background-color: #1295c9;
-      }
-      
-      #login-h1 {
-        font-size: 2em;
-        text-decoration: underline;
-      }
-      
-      #login-h2 {
-        color: black;
-      }
-
       .login-label {
         background-color: #1295c9;
       }
@@ -505,38 +269,6 @@
 
       #logo {
         width: 60%;
-      }
-
-      #meet-h1 {
-        margin-top: 80px;
-        text-align: center;
-      }
-      
-      .member-bio {
-        text-align: left;
-      }
-      
-      .member-name {
-        color: black;
-        text-align: left;
-      }
-      
-      #mock-dark {
-        background-color: #157196;
-        border-radius: 20%;
-      }
-      
-      .mock-header {
-        margin-bottom: 40px;
-        margin-top: 40px;
-      }
-      
-      .mock-submit {
-        border: 1px solid rgb(18, 201, 18) !important;
-        font-size: 1.4em !important;
-        margin-right: 20px;
-        padding: 12px !important;
-        width: 30%;
       }
       
       .navbar-collapse {
@@ -551,7 +283,6 @@
       
       .navbar-nav .nav-link {
         color: white !important;
-        font-size: 1.5em;
         padding: 20px !important;
         text-shadow: 0 0 1px #90c7b7;
       }
@@ -574,67 +305,10 @@
         margin-top: 30px;
       }
       
-      .new-app-submit {
-       background-color: rgb(19, 163, 19) !important;
-       border: 1px solid rgb(18, 201, 18) !important;
-       font-size: 1.5em !important;
-       width: 20%;
-      }
-
-      #offer-image {
-        margin-bottom: 20px;
-      }
-      
       .or {
         color: rgb(211, 206, 206);
         font-size: 2em;
       }
-      
-     .schedule {
-      border: 3px solid #40bbeb;
-      margin-top: 40px;
-      padding: 30px;
-      width: 70%;
-     }
-
-     .scheduler-h3 {
-      margin-bottom: 20px;
-     }
-
-     .scheduler-label {
-      background-color: #1295c9;
-     }
-
-     .scheduler {
-      background-color: #1295c9;
-      border: 2px solid #0b86b6;
-      border-radius: 20px;
-      margin-bottom: 20px;
-      padding: 20px;
-     }
-  
-     .sign-up {
-      font-size: 1.4em;
-      font-style: italic;
-      margin: 0;
-     }
-  
-     .signup-button {
-      max-width: 100%; 
-      max-height: 100%; 
-      width: 60%; 
-      height: auto; 
-     }
-
-     .signup-dark {
-      background-color: #157196;
-      border-radius: 20px; 
-     }
-
-     #signup-h1 {
-      font-size: 2em;
-      text-decoration: underline;
-     }
 
      .signup-h2 {
       color: black;
@@ -644,20 +318,6 @@
 
      #signup-h4 {
       color: black;
-     }
-
-     .signup-link {
-      color: #44c4fb;
-      text-shadow: 0 0 5px #4fbeee;
-     }
-
-     #signup-submit {
-      background-color: rgb(19, 163, 19) !important;
-      border: 1px solid rgb(18, 201, 18) !important;
-      margin: auto;
-      margin-top: 20px;
-      padding: 15px;
-      width: 45%;
      }
 
      .social-button {
@@ -698,10 +358,6 @@
   
      .text {
       margin-bottom: 15px; 
-     }
-
-     .text-bio {
-      margin-top: 70px;
      }
 
      .toolbar {
@@ -761,10 +417,6 @@
    .uploaded-title {
      font-size: 0.7em;
      margin: 0;
-   }
-
-   .video-button {
-    background-color: #1295c9 !important;
    }
 
    .why-join {

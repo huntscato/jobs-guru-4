@@ -87,52 +87,59 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-  .match-content {
-    margin-top: 150px !important; 
-  }
-        
-  #match-dark {
+  .about-dark {
     background-color: #157196;
-    border-radius: 20%;
+    border-radius: 20%;;
   }
 
-  .match-h1 {
+  .about-h2 {
+    color: black;
+    font-size: 2.2em;
     margin-bottom: 40px;
+    margin-top: 40px;
   }
 
-  .match-tab {
-    border-bottom: 3px solid black !important;
-    border-left: 3px solid black !important;
-    border-right: 3px solid black !important;
-    border-top: 3px solid black !important;
-    font-size: 1.3em !important;
-  }
-
-   #match-table {
-    background-color: #0e95cb;
-    border: 2px solid black;
-    padding: 20px;
-   }
-
-   .match-text {
+  .about-h4 {
     margin-bottom: 20px;
-    text-align: center;
-    text-decoration: underline;
+    margin-top: 40px;
   }
 
-   .nav-link {
-    font-size: 1.6em !important; 
-   }
+  #about-page-photo {
+    padding-top: 40px;
+  }
 
-  .video-button {
-    background-color: #1295c9 !important;
-    border: 1px solid black !important;
-    padding: 8px !important;
-   }
+  #about-signup-button {
+    width: 80%;
+  }
 
-   .video-buttons {
-    padding: 20px !important;
-   }
+  #meet-h1 {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .member-bio {
+    text-align: left;
+  }
+  
+  .member-name {
+    color: black;
+    text-align: left;
+  }
+
+  .team-member-container {
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .team-member-container img {
+    height: 100%;
+    width: auto;
+  }
+
+  .text-bio {
+    margin-top: 70px;
+  }
+
 
 
 

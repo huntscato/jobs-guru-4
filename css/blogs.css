@@ -87,54 +87,44 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-  .match-content {
-    margin-top: 150px !important; 
-  }
-        
-  #match-dark {
+   #blog-container {
+    margin-bottom: 40px;
+    margin-top: 40px;
+   }
+
+   .blog-dark {
     background-color: #157196;
     border-radius: 20%;
-  }
-
-  .match-h1 {
-    margin-bottom: 40px;
-  }
-
-  .match-tab {
-    border-bottom: 3px solid black !important;
-    border-left: 3px solid black !important;
-    border-right: 3px solid black !important;
-    border-top: 3px solid black !important;
-    font-size: 1.3em !important;
-  }
-
-   #match-table {
-    background-color: #0e95cb;
-    border: 2px solid black;
-    padding: 20px;
    }
 
-   .match-text {
-    margin-bottom: 20px;
+   #blog-h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
     text-align: center;
     text-decoration: underline;
-  }
-
-   .nav-link {
-    font-size: 1.6em !important; 
    }
 
-  .video-button {
-    background-color: #1295c9 !important;
-    border: 1px solid black !important;
-    padding: 8px !important;
+   .blog-span {
+    color:rgba(101, 120, 154, 1);
    }
 
-   .video-buttons {
-    padding: 20px !important;
+   .card {
+    border: 2px solid #6ebcf0 !important;
+    box-shadow: 0 0 10px rgba(110, 188, 240, 0.9)
    }
 
+   .card-body {
+    color: black !important;
+   }
 
+   .card-text {
+    color: black;
+   }
+
+   .card-title {
+    color: black;
+    text-decoration: underline;
+   }
 
 /* ==========================================================================
    Helper classes

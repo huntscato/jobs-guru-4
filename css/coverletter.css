@@ -88,7 +88,12 @@ textarea {
    ========================================================================== */
 
    .cover-content {
-    margin-top: 150px !important;
+    margin-top: 120px !important;
+   }
+
+   #cover-dark {
+    background-color: #157196 !important;
+    border-radius: 20%;
    }
 
    .cover-h1 {
@@ -100,6 +105,28 @@ textarea {
     background-color: #0e95cb;
     border: 2px solid black;
     padding: 20px;
+   }
+
+   .cover-table-tab {
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 2px solid black;
+    border-top: 4px solid black;
+    font-size: 1.3em !important;
+   }
+
+   .nav-link {
+    font-size: 1.6em !important;
+   }
+
+   .video-button {
+    background-color: #1295c9 !important;
+    border: 1px solid black !important;
+    padding: 8px !important;
+   }
+
+   .video-buttons {
+    padding: 20px !important;
    }
 
 /* ==========================================================================

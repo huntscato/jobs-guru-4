@@ -92,6 +92,11 @@ textarea {
     margin-top: 20px;
   }
 
+  .signup-dark {
+    background-color: #157196;
+    border-radius: 20px; 
+   }
+
   .signup-label {
     background-color: #1296c9 !important;
   }
@@ -104,9 +109,23 @@ textarea {
     background-color: #1295c9;
   }
 
+  #signup-h1 {
+    font-size: 2em;
+    text-decoration: underline;
+   }
+
   .signup-social {
     background-color: #1295c9 !important;
   }
+
+  #signup-submit {
+    background-color: rgb(19, 163, 19) !important;
+    border: 1px solid rgb(18, 201, 18) !important;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    width: 45%;
+   }
 
 /* ==========================================================================
    Helper classes

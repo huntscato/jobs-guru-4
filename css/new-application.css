@@ -87,53 +87,59 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-  .match-content {
-    margin-top: 150px !important; 
-  }
-        
-  #match-dark {
+   #application-container {
+    border: 4px solid #40bbeb;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 120px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   }
+
+   #application-dark {
     background-color: #157196;
     border-radius: 20%;
-  }
-
-  .match-h1 {
-    margin-bottom: 40px;
-  }
-
-  .match-tab {
-    border-bottom: 3px solid black !important;
-    border-left: 3px solid black !important;
-    border-right: 3px solid black !important;
-    border-top: 3px solid black !important;
-    font-size: 1.3em !important;
-  }
-
-   #match-table {
-    background-color: #0e95cb;
-    border: 2px solid black;
-    padding: 20px;
    }
 
-   .match-text {
-    margin-bottom: 20px;
-    text-align: center;
+   #application-h3 {
     text-decoration: underline;
-  }
+   }
+
+   .application-title {
+    background-color: #157196 !important;
+   }
+
+   .file-drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 10px; 
+    color: black !important;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+   }
+
+   .form-control {
+    background-color: white !important;
+   }
+
+   .logo {
+    margin-right: 210px;
+    width: 15% !important;
+   }
 
    .nav-link {
-    font-size: 1.6em !important; 
+    font-size: 2.2em !important;
    }
 
-  .video-button {
-    background-color: #1295c9 !important;
-    border: 1px solid black !important;
-    padding: 8px !important;
+   .new-app-submit {
+    background-color: rgb(19, 163, 19) !important;
+    border: 1px solid rgb(18, 201, 18) !important;
+    font-size: 1.5em !important;
+    width: 20%;
    }
-
-   .video-buttons {
-    padding: 20px !important;
-   }
-
 
 
 /* ==========================================================================

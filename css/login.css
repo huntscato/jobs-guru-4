@@ -87,54 +87,33 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-  .match-content {
-    margin-top: 150px !important; 
-  }
-        
-  #match-dark {
+  .login-dark {
     background-color: #157196;
     border-radius: 20%;
   }
 
-  .match-h1 {
-    margin-bottom: 40px;
+  .login-form {
+    background-color: #1295c9;
   }
-
-  .match-tab {
-    border-bottom: 3px solid black !important;
-    border-left: 3px solid black !important;
-    border-right: 3px solid black !important;
-    border-top: 3px solid black !important;
-    font-size: 1.3em !important;
-  }
-
-   #match-table {
-    background-color: #0e95cb;
-    border: 2px solid black;
-    padding: 20px;
-   }
-
-   .match-text {
-    margin-bottom: 20px;
-    text-align: center;
+  
+  #login-h1 {
+    font-size: 2em;
     text-decoration: underline;
   }
+  
+  #login-h2 {
+    color: black;
+  }
 
-   .nav-link {
-    font-size: 1.6em !important; 
+  .forgot {
+    color:rgb(0, 210, 243);
+    padding-top: 10px;
    }
 
-  .video-button {
-    background-color: #1295c9 !important;
-    border: 1px solid black !important;
-    padding: 8px !important;
+  .signup-link {
+    color: #44c4fb;
+    text-shadow: 0 0 5px #4fbeee;
    }
-
-   .video-buttons {
-    padding: 20px !important;
-   }
-
-
 
 /* ==========================================================================
    Helper classes
