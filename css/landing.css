@@ -87,58 +87,40 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-  .match-content {
-    margin-top: 120px !important; 
-  }
-        
-  #match-dark {
-    background-color: #157196;
-    border-radius: 20%;
-  }
-
-  .match-h1 {
-    margin-bottom: 40px;
-  }
-
-  .match-tab {
-    border-bottom: 3px solid black !important;
-    border-left: 3px solid black !important;
-    border-right: 3px solid black !important;
-    border-top: 3px solid black !important;
-    font-size: 1.3em !important;
-  }
-
-   #match-table {
-    background-color: #0e95cb;
-    border: 2px solid black;
+  .box {
+    background-color: #1295c9;
+    border: 1px solid #ffffff; 
+    box-shadow: 0 0 10px rgba(110, 188, 240, 0.9);
     padding: 20px;
-   }
-
-   .match-text {
     margin-bottom: 20px;
+  }
+
+  .box button {
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  .content {
+    margin-top: 50px;
     text-align: center;
+  }
+
+  .delete-button {
+    background-color: rgb(247, 40, 40) !important;
+  }
+
+  .landing-button {
+    background-color: rgb(5, 101, 205) !important;
+  }
+
+  .landing-h1 {
+    margin-bottom: 35px;
     text-decoration: underline;
   }
 
-   .nav-link {
-    font-size: 2.1em !important; 
-   }
-
-   .nav-tabs {
-    padding-right: 0 !important;
-   }
-
-  .video-button {
-    background-color: #1295c9 !important;
-    border: 1px solid black !important;
-    padding: 8px !important;
-   }
-
-   .video-buttons {
-    padding: 20px !important;
-   }
-
-
+  .nav-link {
+    font-size: 2.1em !important;
+  }
 
 /* ==========================================================================
    Helper classes

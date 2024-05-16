@@ -87,6 +87,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  .mock-h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+
    #mock-dark {
     background-color: #157196;
     border-radius: 20%;
@@ -102,6 +107,10 @@ textarea {
     margin-right: 20px;
     padding: 12px !important;
     width: 30%;
+  }
+
+  .nav-link {
+    font-size: 2.1em !important;
   }
 
   .schedule {

@@ -110,6 +110,10 @@ textarea {
     padding-top: 10px;
    }
 
+  .nav-link {
+    font-size: 1.8em !important;
+  }
+
   .signup-link {
     color: #44c4fb;
     text-shadow: 0 0 5px #4fbeee;

@@ -88,7 +88,7 @@ textarea {
    ========================================================================== */
 
    .cover-content {
-    margin-top: 120px !important;
+    margin-top: 100px !important;
    }
 
    #cover-dark {
@@ -99,6 +99,7 @@ textarea {
    .cover-h1 {
     margin-bottom: 40px;
     text-align: center;
+    text-decoration: underline;
    }
 
    .cover-table {
@@ -112,11 +113,11 @@ textarea {
     border-left: 4px solid black;
     border-right: 2px solid black;
     border-top: 4px solid black;
-    font-size: 1.3em !important;
+    font-size: 0.9em !important;
    }
 
    .nav-link {
-    font-size: 1.6em !important;
+    font-size: 2.1em !important;
    }
 
    .video-button {

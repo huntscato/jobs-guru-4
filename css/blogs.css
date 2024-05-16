@@ -109,6 +109,7 @@ textarea {
    }
 
    .card {
+    background-color: rgb(239, 239, 214) !important;
     border: 2px solid #6ebcf0 !important;
     box-shadow: 0 0 10px rgba(110, 188, 240, 0.9)
    }
