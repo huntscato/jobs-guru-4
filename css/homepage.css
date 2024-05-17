@@ -151,6 +151,10 @@ textarea {
     width: 100%;
    }
 
+   .nav-link {
+    font-size: 1.9em;
+   }
+
    #offer-image {
     margin-bottom: 20px;
    }

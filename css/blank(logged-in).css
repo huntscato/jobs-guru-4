@@ -87,49 +87,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-  .form-group {
-    background-color: #1295c9;
-    margin-top: 20px;
+  .content {
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
-
+   
   .nav-link {
-    font-size: 1.9em !important;
+    font-size: 2.1em !important;
   }
-
-  .signup-dark {
-    background-color: #157196;
-    border-radius: 20px; 
-   }
-
-  .signup-label {
-    background-color: #1296c9 !important;
-  }
-
-  .signup-content {
-    margin-top: 40px;
-  }
-
-  .signup-form {
-    background-color: #1295c9;
-  }
-
-  #signup-h1 {
-    font-size: 2em;
-    text-decoration: underline;
-   }
-
-  .signup-social {
-    background-color: #1295c9 !important;
-  }
-
-  #signup-submit {
-    background-color: rgb(19, 163, 19) !important;
-    border: 1px solid rgb(18, 201, 18) !important;
-    margin: auto;
-    margin-top: 20px;
-    padding: 15px;
-    width: 45%;
-   }
 
 /* ==========================================================================
    Helper classes
