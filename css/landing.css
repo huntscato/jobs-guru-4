@@ -87,22 +87,35 @@
      Author's custom styles
      ========================================================================== */
     
-     .box {
+    .action-box {
+       margin-bottom: 40px;
+    }
+
+    .action-box-title {
+      font-size: 1.5em;
+      text-decoration: underline;
+    }
+
+    .box {
       background-color: #1295c9;
       border: 1px solid #ffffff; 
       box-shadow: 0 0 10px rgba(110, 188, 240, 0.9);
       padding: 20px;
-      margin-bottom: 20px;
+      text-align: center;
     }
-  
+
     .box button {
       margin-top: 10px;
       width: 50%;
     }
-
+    
     .content {
       margin-top: 50px;
       text-align: center;
+    }
+    
+    .job-score-box {
+      height: 340px;
     }
 
     .landing-h1 {
@@ -117,6 +130,14 @@
 
     .nav-link {
       font-size: 2.1em !important;
+    }
+
+    .score-box-text {
+      font-size: 1.2em;
+    }
+
+    .score-box-title {
+      text-decoration: underline;
     }
   
   /* ==========================================================================

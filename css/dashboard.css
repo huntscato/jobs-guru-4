@@ -87,6 +87,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  .countdown-container {
+    text-align: center
+  }
+
   #edit-btn {
     background-color: rgb(212, 158, 56) !important;
     border: none;
@@ -97,6 +101,13 @@ textarea {
     border-radius: 20%;
   }
 
+  .dashboard-h1 {
+    color: black;
+    font-size: 2.5em;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
   .dashboard-header {
     margin-bottom: 40px;
     text-align: center;
@@ -105,6 +116,11 @@ textarea {
   #dashboard-logo {
     margin-right: 300px;
     width: 17% !important;
+  }
+
+  .dashboard-upgrade {
+    color: #44c4fb;
+    text-shadow: 0 0 2px #4fbeee;
   }
 
   .main-content {
@@ -129,17 +145,10 @@ textarea {
   }
 
   .track {
-    font-size: 2em;
-    margin-left: 70px;
-  }
-
-  .welcome {
-    color: black;
-    font-size: 3em;
-    font-style: italic;
-    margin-left: 70px;
+    font-size: 1.7em;
     text-decoration: underline;
   }
+
 
 
 

@@ -18,7 +18,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/landing(old).css">
+  <link rel="stylesheet" href="css/landing.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
@@ -62,28 +62,41 @@
 
 </header>
 
-<div class="content">
+<body>
+
   <div class="content">
-    <h1 class="landing-h1">What would you like to do today?</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="box">
-            <h2>Continue on Existing Applications</h2>
-            <p>Click below to go to your dashboard.</p>
-            <button type="button" class="btn btn-primary landing-button">Go to Dashboard</button>
-          </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="box action-box">
+                  <h3 class="action-box-title">Cover Letter and Interview Questions</h3>
+                  <p class="action-box-text">Ready for us to craft your personalized cover letter for this position? We'll use AI to customize a cover letter that will resonate with hiring managers and display questions likely to be asked during the interview.</p>
+                  <p class="status">Status: Incomplete</p>
+                  <button type="button" class="btn btn-primary action-box-button">Run Cover Letter AI</button>
+                </div>
+                <div class="box action-box">
+                  <h3 class="action-box-title">Match and Tweak Your Resume</h3>
+                  <p class="action-box-text">Let us take your resume and the job description to analyze and generate a report on how well your resume matches the job requirements.</p>
+                  <p class="status">Status: Incomplete</p>
+                  <button type="button" class="btn btn-primary action-box-button">Run Match Report</button>
+                </div>
+                <div class="box action-box">
+                  <h3 class="action-box-title">Mock Interview</h3>
+                  <p class="action-box-text">Feel like you need a little extra practice before speaking to a hiring manager? Click below to schedule a mock interview with a member of our team to practice your interviewing skills using questions that will most likely be used in the actual interview.</p>
+                  <p class="status">Status: Not Scheduled</p>
+                  <button type="button" class="btn btn-primary action-box-button">Schedule Mock Interview Now</button>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="box job-score-box">
+                  <h3 class="score-box-title">How Well Do You Match?</h3>
+                  <p class="score-box-text">Here's your score based on our reports:</p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6">
-          <div class="box">
-            <h2>Start a New Application</h2>
-            <p>Click below to get started.</p>
-            <button type="button" class="btn btn-primary landing-button">Start New App</button>
-          </div>
-        </div>
-      </div>
     </div>
-</div>
+  </div>
+
 
 
 <body>

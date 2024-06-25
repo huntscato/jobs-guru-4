@@ -126,6 +126,10 @@ textarea {
     text-align: left;
   }
 
+  .nav-item {
+    font-size: 1.9em;
+  }
+
   .team-member-container {
     height: 300px;
     margin-bottom: 20px;
